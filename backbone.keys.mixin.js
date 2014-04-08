@@ -72,7 +72,7 @@
     });
 
     // should be used as mixin to backbone/marionette views
-    KeysViewMixin = Backbone.View.extend({
+    var KeysViewMixin = Backbone.View.extend({
 
         // Allow pr view what specific event to use
         // Keydown is defaulted as it allows for press-and-hold
